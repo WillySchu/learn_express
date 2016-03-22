@@ -3,8 +3,12 @@ var app = express();
 
 app.get('/', function(req, res) {
   res.send('Hello World');
-})
+});
+
+app.get('/new', function(req, res) {
+  res.send('Congratulations on making a new route!');
+});
 
 app.listen(8080, function() {
   console.log('listening on port 8080');
-})
+});
