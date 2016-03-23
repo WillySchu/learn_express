@@ -5,7 +5,7 @@ var vegetables = ['Carrot', 'Cucumber', 'Peas'];
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-  res.send('Hello World');
+  res.render('index', {name: 'Ellie'});
 });
 
 app.get('/new', function(req, res) {
