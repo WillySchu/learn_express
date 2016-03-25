@@ -29,6 +29,6 @@ app.get('/*', function(req, res) {
   res.status(404).send('Nothing here');
 });
 
-app.listen(8080, function() {
-  console.log('listening on port 8080');
+app.listen(3000, function() {
+  console.log('listening on port 3000');
 });
